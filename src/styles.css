@@ -69,8 +69,8 @@
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
+  --primary: oklch(0.55 0.15 160);
+  --primary-foreground: oklch(0.98 0.01 160);
   --secondary: oklch(0.968 0.007 247.896);
   --secondary-foreground: oklch(0.208 0.042 265.755);
   --muted: oklch(0.968 0.007 247.896);
@@ -142,3 +142,6 @@
     color: var(--color-foreground);
   }
 }
+
+@theme inline { --font-display: "Fraunces", Georgia, serif; }
+.register-bg { background: radial-gradient(circle at 20% 20%, oklch(0.93 0.05 160), transparent 50%), radial-gradient(circle at 80% 80%, oklch(0.94 0.05 80), transparent 50%), var(--background); }

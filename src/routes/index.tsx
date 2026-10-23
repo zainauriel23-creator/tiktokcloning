@@ -48,8 +48,8 @@ function Register() {
       <div className="w-full max-w-md rounded-2xl border bg-card p-8 shadow-xl">
         {status === "done" ? (
           <div className="text-center">
-            <h1 className="font-display text-3xl text-foreground">Berhasil!</h1>
-            <p className="mt-2 text-muted-foreground">Akun Anda sudah terdaftar.</p>
+            <h1 className="font-display text-3xl text-foreground">YAUDAH SIII</h1>
+            <p className="mt-2 text-muted-foreground">awokawokawokawokawok.</p>
           </div>
         ) : (
           <>
